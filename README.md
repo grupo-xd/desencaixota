@@ -29,56 +29,56 @@ O projeto está divido em:
 ```
 .
 │
-├─ backend/                                         # Backend: Spring Boot + JPA
-│   ├─ mvnw                                         # Wrapper do Maven para Linux
-│   ├─ mvnw.cmd                                     # Wrapper do Maven para Windows
-│   ├─ pom.xml                                      # Configuração do Maven e dependências
+├─ backend/                                        # Backend: Spring Boot + JPA
+│   ├─ mvnw                                          # Wrapper do Maven para Linux
+│   ├─ mvnw.cmd                                      # Wrapper do Maven para Windows
+│   ├─ pom.xml                                       # Configuração do Maven e dependências
 │   └─ src/
 │       ├─ main/
 │       │   ├─ java/com/grupoxd/desencaixota/
-│       │   │   ├─ config/                         # Configurações do Spring Boot
-│       │   │   ├─ controller/                     # Endpoints da API
-│       │   │   ├─ model/                          # Entidades do sistema
-│       │   │   ├─ repository/                     # Repositórios JPA (acesso a dados)
-│       │   │   ├─ service/                        # Regras de negócio e comunicação com repositórios
-│       │   │   └─ DesencaixotaApplication.java    # Classe principal que inicializa a aplicação
-│       │   └─ resources/                          # Configurações (application.properties)
-│       └─ test/                                   # Testes unitários e de integração
+│       │   │   ├─ config/                           # Configurações do Spring Boot
+│       │   │   ├─ controller/                       # Endpoints da API
+│       │   │   ├─ model/                            # Entidades do sistema
+│       │   │   ├─ repository/                       # Repositórios JPA (acesso a dados)
+│       │   │   ├─ service/                          # Regras de negócio e comunicação com repositórios
+│       │   │   └─ DesencaixotaApplication.java      # Classe principal que inicializa a aplicação
+│       │   └─ resources/                            # Configurações (application.properties)
+│       └─ test/                                     # Testes unitários e de integração
 │
 ├─ frontend/                                       # Frontend: Next.js + React + Tailwind
-│   ├─ package.json                                # Dependências e scripts do frontend
-│   ├─ package-lock.json                           # Lockfile do npm
-│   ├─ next.config.ts                              # Configuração do Next.js
-│   ├─ tsconfig.json                               # Configuração do TypeScript
-│   ├─ postcss.config.mjs                          # Configuração do PostCSS/Tailwind
-│   ├─ eslint.config.mjs                           # Configuração do ESLint
-│   ├─ public/                                     # Arquivos estáticos (imagens, favicon, etc.)
+│   ├─ package.json                                  # Dependências e scripts do frontend
+│   ├─ package-lock.json                             # Lockfile do npm
+│   ├─ next.config.ts                                # Configuração do Next.js
+│   ├─ tsconfig.json                                 # Configuração do TypeScript
+│   ├─ postcss.config.mjs                            # Configuração do PostCSS/Tailwind
+│   ├─ eslint.config.mjs                             # Configuração do ESLint
+│   ├─ public/                                       # Arquivos estáticos (imagens, favicon, etc.)
 │   └─ src/
-│       └─ app/                                    # Código-fonte da aplicação (componentes, páginas, estilos)
-│           ├─ layout.tsx                          # Layout principal da aplicação
-│           ├─ page.tsx                            # Página inicial (Home)
-│           ├─ globals.css                         # Estilos globais
-│           ├─ favicon.ico                         # Ícone da aplicação
+│       └─ app/                                      # Código-fonte da aplicação (componentes, páginas, estilos)
+│           ├─ layout.tsx                            # Layout principal da aplicação
+│           ├─ page.tsx                              # Página inicial (Home)
+│           ├─ globals.css                           # Estilos globais
+│           ├─ favicon.ico                           # Ícone da aplicação
 │           │
-│           ├─ auth/                             # Grupo de páginas de autenticação
+│           ├─ auth/                                 # Grupo de páginas de autenticação
 │           │
-│           ├─ dashboard/                        # Grupo de páginas do dashboard
+│           ├─ dashboard/                            # Grupo de páginas do dashboard
 │           │
-│           ├─ components/                         # Componentes React reutilizáveis
-│           │   ├─ ui/                             # Componentes de UI básicos
-│           │   ├─ layout/                         # Componentes de layout
-│           │   └─ shared/                         # Componentes compartilhados
+│           ├─ components/                           # Componentes React reutilizáveis
+│           │   ├─ ui/                               # Componentes de UI básicos
+│           │   ├─ layout/                           # Componentes de layout
+│           │   └─ shared/                           # Componentes compartilhados
 │           │
-│           ├─ lib/                                # Utilitários e configurações
+│           ├─ lib/                                  # Utilitários e configurações
 │           │
-│           └─ styles/                             # Estilos adicionais (se necessário)
-│               └─ components/                     # Estilos específicos de componentes
+│           └─ styles/                               # Estilos adicionais (se necessário)
+│               └─ components/                       # Estilos específicos de componentes
 │
-├─ docs/                                           # Documentação geral do projeto
+├─ docs/                                             # Documentação geral do projeto
 │
-├─ LICENSE                                         # Licença do projeto
-├─ .gitignore                                      # Arquivos e pastas ignorados pelo Git
-└─ README.md                                       # Documentação geral do projeto
+├─ LICENSE                                           # Licença do projeto
+├─ .gitignore                                        # Arquivos e pastas ignorados pelo Git
+└─ README.md                                         # Documentação geral do projeto
 
 ```
 
